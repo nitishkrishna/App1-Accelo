@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPS/Accel Sensor App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send Log</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">Log Entries</string>
+    <string name="enter_IP">Enter IP Addr</string>
+    <string name="enter_Port">Enter Port No.</string>
+    
+</resources>
