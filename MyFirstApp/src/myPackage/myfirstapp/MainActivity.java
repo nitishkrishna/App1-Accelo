@@ -48,7 +48,7 @@ public class MainActivity extends Activity implements SensorEventListener{
     mSensorManager.registerListener(this, mAccelerometer , SensorManager.SENSOR_DELAY_NORMAL);
     mLocationListener = new MyLocationListener();
     mLocationManager.requestLocationUpdates(
-        LocationManager.GPS_PROVIDER, 2000, 3 , 
+        LocationManager.GPS_PROVIDER, 1000, 1 , 
         (android.location.LocationListener) mLocationListener);
     File file = new File(getFilesDir()+File.separator+"accel_log.txt");
     if (file.exists()) {
